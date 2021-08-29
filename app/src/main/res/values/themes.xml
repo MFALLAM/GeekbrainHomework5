@@ -1,0 +1,53 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.UICalculator" parent="Theme.AppCompat.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="functionButtons">
+        <item name="android:textSize">40sp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textColor">@color/functionButtonsTxt</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:background">@drawable/func__round_rectangle_buttons</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+    </style>
+
+    <style name="numbersButtons">
+        <item name="android:textSize">40sp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textColor">@color/numbersButtonsTxt</item>
+        <item name="android:background">@drawable/num__round_rectangle_buttons</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+    </style>
+
+    <style name="equalButtons">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/equalButtonsTxt</item>
+        <item name="android:background">@drawable/equal_round_rectangle_buttons</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+    </style>
+
+</resources>
